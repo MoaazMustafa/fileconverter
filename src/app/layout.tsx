@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Orbitron } from 'next/font/google';
 import NextTopLoader from 'nextjs-toploader';
 
 import '@/styles/globals.css';
+import Footer from '@/components/footer';
 import ThemeProvider from '@/components/theme-provider';
 import { DisableDevTools } from '@/components/disable-devtools';
 import Navbar from '@/components/navbar';
@@ -75,9 +76,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
               {children}
             </main>
 
-            <footer role="contentinfo" data-footer>
-              {/* Footer component will be added here */}
-            </footer>
+            <Footer />
         </ThemeProvider>
       </body>
     </html>

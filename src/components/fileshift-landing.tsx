@@ -18,6 +18,8 @@ import {
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
+import Link from "next/link";
+
 import { Badge } from "@/components/badge";
 import { Button } from "@/components/button";
 
@@ -253,12 +255,14 @@ export default function FileshiftLanding() {
           </div>
 
           <div className="flex flex-wrap items-center justify-center gap-3">
-            <Button size="lg" className="gap-2 font-semibold">
-              Start Converting Free
-              <ArrowRight className="size-4" />
+            <Button asChild size="lg" className="gap-2 font-semibold">
+              <Link href="/convert">
+                Start Converting Free
+                <ArrowRight className="size-4" />
+              </Link>
             </Button>
-            <Button size="lg" variant="outline" className="gap-2 font-semibold">
-              See All Formats
+            <Button asChild size="lg" variant="outline" className="gap-2 font-semibold">
+              <Link href="/formats">See All Formats</Link>
             </Button>
           </div>
 
@@ -449,9 +453,11 @@ export default function FileshiftLanding() {
             files instantly — no account, no downloads, no strings attached.
           </p>
 
-          <Button size="lg" className="gap-2 px-8 text-base font-semibold">
-            Try FileShift Free
-            <ArrowRight className="size-4" />
+          <Button asChild size="lg" className="gap-2 px-8 text-base font-semibold">
+            <Link href="/convert">
+              Try FileShift Free
+              <ArrowRight className="size-4" />
+            </Link>
           </Button>
 
           <p className="text-xs text-muted-foreground">
