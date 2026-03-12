@@ -7,6 +7,7 @@ import Footer from '@/components/footer';
 import ThemeProvider from '@/components/theme-provider';
 import { DisableDevTools } from '@/components/disable-devtools';
 import Navbar from '@/components/navbar';
+import { Toaster } from 'sonner';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -75,7 +76,12 @@ export default function RootLayout({ children }: RootLayoutProps) {
             <main role="main" id="main-content">
               {children}
             </main>
-
+            <Toaster
+              position="bottom-right"
+              theme="dark"
+              richColors
+              closeButton
+            />
             <Footer />
         </ThemeProvider>
       </body>
