@@ -27,6 +27,18 @@ const orbitron = Orbitron({
 });
 
 export const metadata: Metadata = {
+  title: "FileShift — Universal File Converter",
+  description:
+    "Convert any file format instantly in your browser. 200+ formats supported across documents, images, audio, video, archives, and eBooks. Free, no sign-up required.",
+  keywords: [
+    "file converter",
+    "convert files online",
+    "document converter",
+    "image converter",
+    "audio converter",
+    "video converter",
+    "free file conversion",
+  ],
   icons: {
     icon: '/favicon/favicon.ico',
     shortcut: '/favicon/favicon-16x16.png',

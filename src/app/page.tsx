@@ -1,7 +1,5 @@
-import ComingSoon from "@/components/coming-soon";
+import FileshiftLanding from "@/components/fileshift-landing";
 
 export default function Home() {
-  return (
-   <ComingSoon />
-  );
+  return <FileshiftLanding />;
 }
