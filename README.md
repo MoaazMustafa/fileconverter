@@ -1,9 +1,9 @@
-<!-- README-AI-SIGNATURE:20260328002132 -->
+<!-- README-AI-SIGNATURE:20260329025215 -->
 # fileconverter
 
 fileconverter is a TypeScript-based project designed to facilitate file conversion tasks. This repository leverages modern web technologies to provide a seamless user experience and efficient performance.
 
-![TypeScript](https://img.shields.io/badge/TypeScript-4.0-blue.svg) ![Next.js](https://img.shields.io/badge/Next.js-16.0.7-black.svg) ![React](https://img.shields.io/badge/React-19.2.0-lightblue.svg) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-4.0-green.svg)
+![TypeScript](https://img.shields.io/badge/TypeScript-4.0-blue.svg) ![Next.js](https://img.shields.io/badge/Next.js-16.0.7-black.svg) ![React](https://img.shields.io/badge/React-19.2.0-lightblue.svg) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-4.0-pink.svg)
 
 ## ✨ Key Features
 
@@ -17,7 +17,7 @@ fileconverter is a TypeScript-based project designed to facilitate file conversi
 
 ### 🎨 Modern UI
 - Styled with Tailwind CSS for a responsive and modern design.
-- Includes SVG assets for a visually appealing interface.
+- Includes interactive components powered by Radix UI.
 
 ## 🏗️ Project Structure
 
