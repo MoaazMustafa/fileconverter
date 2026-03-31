@@ -1,4 +1,4 @@
-<!-- README-AI-SIGNATURE:20260330025718 -->
+<!-- README-AI-SIGNATURE:20260331024818 -->
 # fileconverter
 
 fileconverter is a TypeScript-based project designed to facilitate file conversion tasks. This repository leverages modern web technologies to provide a seamless user experience and efficient performance.
@@ -61,14 +61,18 @@ You can then run the development server:
 npm run dev
 ```
 
+To build the project for production, use:
+
+```bash
+npm run build
+```
+
 ## 📜 Scripts
 
-This project includes several scripts to facilitate development:
-
-- `npm run dev`: Starts the development server.
-- `npm run build`: Builds the application for production.
-- `npm run start`: Starts the production server.
-- `npm run lint`: Runs ESLint to check for code quality issues.
+- `dev`: Starts the development server.
+- `build`: Builds the application for production.
+- `start`: Starts the production server.
+- `lint`: Runs ESLint to check for code quality issues.
 
 ## 🤝 Contributing
 
@@ -76,4 +80,4 @@ Contributions are welcome! Please feel free to submit a pull request or open an 
 
 ## 📄 License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
