@@ -1,28 +1,28 @@
-<!-- README-AI-SIGNATURE:20260401032045 -->
+<!-- README-AI-SIGNATURE:20260402024421 -->
 # fileconverter
 
 fileconverter is a TypeScript-based project designed to facilitate file conversion tasks. This repository leverages modern web technologies to provide a seamless user experience and efficient performance.
 
-![TypeScript](https://img.shields.io/badge/TypeScript-4.0-blue.svg) ![Next.js](https://img.shields.io/badge/Next.js-16.0.7-black.svg) ![React](https://img.shields.io/badge/React-19.2.0-lightblue.svg) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-4.0-pink.svg)
+![TypeScript](https://img.shields.io/badge/TypeScript-4.0.0-blue.svg) ![Next.js](https://img.shields.io/badge/Next.js-16.0.7-black.svg) ![React](https://img.shields.io/badge/React-19.2.0-lightblue.svg)
 
 ## ✨ Key Features
 
 ### 📁 File Conversion
-- Supports various file formats for conversion.
-- Efficient handling of file uploads and downloads.
+- Supports various file formats for conversion, enhancing flexibility for users.
 
 ### ⚡ Performance Optimized
-- Built with Next.js for server-side rendering and optimized performance.
-- Utilizes TypeScript for type safety and improved developer experience.
+- Built with Next.js for server-side rendering, ensuring fast load times and improved SEO.
 
 ### 🎨 Modern UI
-- Styled with Tailwind CSS for a responsive and modern design.
-- Includes SVG assets for enhanced visual appeal.
+- Utilizes Tailwind CSS for a responsive and visually appealing design.
+
+### 🔧 Linting and Formatting
+- Integrated ESLint and Prettier for maintaining code quality and consistency.
 
 ## 🏗️ Project Structure
 
 ```
-.
+fileconverter/
 ├── .gitignore
 ├── .lintstagedrc.json
 ├── .npmrc
@@ -64,14 +64,18 @@ You can then run the development server:
 npm run dev
 ```
 
+To build the project for production, use:
+
+```bash
+npm run build
+```
+
 ## 📜 Scripts
 
-This project includes several scripts to facilitate development:
-
-- `npm run dev`: Starts the development server.
-- `npm run build`: Builds the application for production.
-- `npm run start`: Starts the production server.
-- `npm run lint`: Runs ESLint to check for code quality issues.
+- `dev`: Starts the development server.
+- `build`: Compiles the project for production.
+- `start`: Launches the production server.
+- `lint`: Runs ESLint to check for code quality issues.
 
 ## 🤝 Contributing
 
