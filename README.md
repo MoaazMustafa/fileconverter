@@ -1,4 +1,4 @@
-<!-- README-AI-SIGNATURE:20260402024421 -->
+<!-- README-AI-SIGNATURE:20260403024903 -->
 # fileconverter
 
 fileconverter is a TypeScript-based project designed to facilitate file conversion tasks. This repository leverages modern web technologies to provide a seamless user experience and efficient performance.
@@ -7,17 +7,17 @@ fileconverter is a TypeScript-based project designed to facilitate file conversi
 
 ## ✨ Key Features
 
-### 📁 File Conversion
-- Supports various file formats for conversion, enhancing flexibility for users.
+### 🔄 File Conversion
+- Supports various file formats for conversion, enhancing flexibility in file management.
 
-### ⚡ Performance Optimized
-- Built with Next.js for server-side rendering, ensuring fast load times and improved SEO.
+### ⚡ Fast Performance
+- Built with Next.js for optimized performance and quick loading times.
 
 ### 🎨 Modern UI
-- Utilizes Tailwind CSS for a responsive and visually appealing design.
+- Utilizes Tailwind CSS for a responsive and visually appealing user interface.
 
-### 🔧 Linting and Formatting
-- Integrated ESLint and Prettier for maintaining code quality and consistency.
+### 🛠️ Developer Friendly
+- Includes ESLint and Prettier for code quality and consistency.
 
 ## 🏗️ Project Structure
 
@@ -72,10 +72,10 @@ npm run build
 
 ## 📜 Scripts
 
-- `dev`: Starts the development server.
-- `build`: Compiles the project for production.
-- `start`: Launches the production server.
-- `lint`: Runs ESLint to check for code quality issues.
+- `npm run dev`: Starts the development server.
+- `npm run build`: Builds the application for production.
+- `npm run start`: Starts the production server.
+- `npm run lint`: Runs ESLint to check for code quality issues.
 
 ## 🤝 Contributing
 
